@@ -1,0 +1,31 @@
+{
+  "name": "bitcoin-keypair",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base58-string": "^0.0.3",
+    "base58check": "^2.0.0",
+    "bip32": "^3.0.1",
+    "bip39": "^3.0.4",
+    "bitcoin-transaction": "^1.2.1",
+    "bitcoinjs-lib": "^5.2.0",
+    "bs58": "^5.0.0",
+    "ecpair": "^2.0.1",
+    "express": "^4.18.1",
+    "hdkey": "^2.0.1",
+    "node-localstorage": "^2.2.1",
+    "store2": "^2.13.2",
+    "tiny-secp256k1": "^2.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
